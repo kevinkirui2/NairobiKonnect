@@ -10,6 +10,7 @@ import Img4 from "./images/3b01b901-c1c8-43e1-a974-c832e6474e7b.jpg";
 import Img5 from "./images/adaa3b6e-d57a-4b60-932a-05cbd5810d85.jpg";
 import Tree from "./images/da43976f-c49a-4fd1-9bb9-4e1caf8dc9bc.jpg";
 import Hero from "./images/dusk.jpg";
+import Logo from "./images/logo.jpg";
 
 export default function Nairobikonnect() {
   const events = [
@@ -74,6 +75,9 @@ export default function Nairobikonnect() {
         <div className="absolute inset-0 bg-black/60"></div>
 
         <div className="relative z-10 text-center px-6 max-w-4xl">
+          <div className="mb-6">
+            <img src={Logo} alt="Nairobi Konnect Logo" className="w-32 mx-auto" />
+          </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4">
             Nairobi Konnect
           </h1>
@@ -94,7 +98,7 @@ export default function Nairobikonnect() {
       </section>
 
       {/* MISSION */}
-      <section className="py-20 bg-green-50">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-green-900 mb-14">
             Our Mission
