@@ -200,6 +200,7 @@ export default function Nairobikonnect() {
               <img
                 key={i}
                 src={img}
+                alt="gallery"
                 loading="lazy"
                 className="rounded-xl object-cover h-60 w-full hover:scale-105 transition"
               />
