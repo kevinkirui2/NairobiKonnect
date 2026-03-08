@@ -10,7 +10,7 @@ import Img4 from "./images/3b01b901-c1c8-43e1-a974-c832e6474e7b.jpg";
 import Img5 from "./images/adaa3b6e-d57a-4b60-932a-05cbd5810d85.jpg";
 import Tree from "./images/da43976f-c49a-4fd1-9bb9-4e1caf8dc9bc.jpg";
 import Hero from "./images/dusk.jpg";
-import Logo from "./images/logo.jpg";
+import Logo from "./images/ekonnect.jpeg";
 
 export default function Nairobikonnect() {
   const events = [
@@ -79,7 +79,7 @@ export default function Nairobikonnect() {
             <img src={Logo} alt="Nairobi Konnect Logo" className="w-32 mx-auto" />
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4">
-            Nairobi Konnect
+            Nairobi EKonnect
           </h1>
 
           <p className="text-yellow-400 font-semibold mb-6">
@@ -128,9 +128,12 @@ export default function Nairobikonnect() {
       {/* EVENTS */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl md:text-5xl font-bold text-center text-green-900 mb-14">
+          <h2 className="text-3xl md:text-5xl font-bold text-center text-green-900 mb-10">
             Upcoming Events
+           
           </h2>
+          <p className="text-gray-600 text-center mb-4">Please make payments to the Till Number Below<br></br> Then foward MPESA Message to the Whatever Event you Click For</p>
+          <p className="text-green-600 text-center  mb-10">PAYBILL: 4911426 </p>
 
           <div className="grid gap-10 md:grid-cols-3">
             {events.map((event, i) => (
@@ -155,9 +158,15 @@ export default function Nairobikonnect() {
                     <MapPin size={16} /> {event.location}
                   </p>
 
-                  <button className="mt-4 w-full bg-green-900 text-white py-2 rounded-lg hover:bg-yellow-400 hover:text-green-900 transition">
-                    Register
-                  </button>
+                 <a
+  href="https://wa.me/254706094729?text=Hello%20There%20I%20Am%20here%20to%20forward%20my%20Mpesa%20message%20for%20the%20following%20Trip"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="mt-4 w-full bg-green-900 text-white py-2 rounded-lg hover:bg-yellow-400 hover:text-green-900 transition">
+    Register
+  </button>
+</a>
                 </div>
               </div>
             ))}
@@ -231,7 +240,7 @@ export default function Nairobikonnect() {
           </div>
 
           <p className="mt-6 text-sm text-white/70">
-            © 2026 Nairobi Konnect. All rights reserved.
+            © 2026 Nairobi EKonnect. All rights reserved.
           </p>
         </div>
       </footer>
