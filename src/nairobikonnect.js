@@ -9,7 +9,7 @@ import Img3 from "./images/e1cce1bb-04ee-4f1d-8401-22b35c16a986.jpg";
 import Img4 from "./images/3b01b901-c1c8-43e1-a974-c832e6474e7b.jpg";
 import Img5 from "./images/adaa3b6e-d57a-4b60-932a-05cbd5810d85.jpg";
 import Tree from "./images/da43976f-c49a-4fd1-9bb9-4e1caf8dc9bc.jpg";
-import Hero from "./images/dusk.jpg";
+import Hero from "./images/ekonnectbg.jpeg";
 import Logo from "./images/ekonnect.jpeg";
 
 export default function Nairobikonnect() {
@@ -197,7 +197,6 @@ export default function Nairobikonnect() {
         </div>
       </section>
 
-      {/* GALLERY */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-green-900 mb-14">
